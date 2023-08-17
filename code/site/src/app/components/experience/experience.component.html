@@ -5,7 +5,9 @@
             <div class="flex-grow-1">
                 <h3 class="mb-0">{{ element.title }}</h3>
                 <div class="subheading mb-3">{{ element.company }}</div>
-                <p>{{ element.description }}</p>
+                <ul>
+                  <li *ngFor="let disc of element.description">{{ disc }}</li>
+                </ul>
             </div>
             <div class="flex-shrink-0"><span class="text-primary">{{ element.startYear }} - {{ element.endYear }}</span></div>
         </div>
