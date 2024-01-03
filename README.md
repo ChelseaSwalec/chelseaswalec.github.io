@@ -1,2 +1,2 @@
 # Chelsea Swalec
-## Shipping Lead in the Detroit Area
+## Dispatch Supervisor in the Detroit Area
